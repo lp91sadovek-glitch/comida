@@ -3,25 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>pollo al espiedo</title>
+
+<!--link de estilo-->
+<link rel="stylesheet" href="style/style.css">
+
 </head>
 <body>
-    
-    <div = class="titulo y subtitulo">
 
-        <!--aqui el titulo y sustitulo-->
+  <!--titulo-->
 
-        <h1>La Comilona</h1>
-        <h3>La provas y no paras</h3>
+    <div class="container-titulo">
+
+        <h1>El mejor pollo al espiedo de la ciudad.</h1>
+
+        <a href="platos.html" class="boton">ver nuestros platos</a>
+
+        <a href="sobre nosotros.html" class="boton">sobre nosotros</a>  
+
+        <a href="contactos.html" class="boton">contactanos</a>
+
+        
+        <!--imagen de logo-->
+
+        <img src="imagenes/logo.png" alt="logo" class="logo">
+
+        </div>
+
+
+       <!--carrusel-->
+
+        <div class="container-de-carrusel">
+
+
+        <!--carrusel de imagenes-->
+        <div class="carrusel">
+
+            <img src="imagenes/imagen0.png" class="slide active" alt="1">
+
+            <img src="imagenes/imagen2.jpg" class="slide" alt="2">
+
+            <img src="imagenes/imagen3.jpg" class="slide" alt="3">
+
+            <!--botones del carrusel -->
+
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+
+          </div>
+
+          <div class="foto-unica">
+
+            <img src="imagenes/imagen4.jpg" alt="4">
+
+          </div>
+
+        </div>
+
+
+        <div class="map-container">
+
+        <!--mapa de google maps-->
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.1234567890123!2d-46.1234567890123!3d-23.1234567890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce123456789012%3A0x1234567890123456!2sPollo%20al%20Espiedo%20Delicioso!5e0!3m2!1ses-419!2sve!4v1234567890123" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+        </div>
+
+
+        <div class="whatsapp">
+
+        <!--boton de whatsapp-->
+        <a href = "https://wa.me/2215012289"
+
+        class="whatsapp-float" target="_blank">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="whatsapp" width="50px" height="50px">
+        </a>
+
+
+
+        <!--script del carrusel-->
+
+        <script src="carrusel.js"></script> 
 
     </div>
 
-    <div class="imagenes de pollo">
 
-        <img src="images1\images2.jpg" alt="pollo">
-
-        <img src="images1\pollo4_n.jpg" alt="pollo2"
-
-    </div>
-</body>
-</html>s
+  </body>
+</html>
